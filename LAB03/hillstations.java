@@ -15,9 +15,9 @@ public class hillstations
     {
         hillstations h;
 
-        h = new Manali();
-        System.out.println("Manali famous food: " + h.famousfood());
-        System.out.println("Manali famous for: " + h.famousfor());
+        h = new Mahabaleshwar();
+        System.out.println("Mahabelshwar famous food: " + h.famousfood());
+        System.out.println("Mahabaleshwar famous for: " + h.famousfor());
 
         h = new Shimla();
         System.out.println("Shimla famous food: " + h.famousfood());
@@ -29,14 +29,14 @@ public class hillstations
     }
 }
 
-class Manali extends hillstations 
+class Mahabaleshwar extends hillstations 
 {
     String famousfood() {
-        return "1. Siddu  2. Trout Fish";
+        return "1. Strawberry  2. Corn Patties";
     }
 
     String famousfor() {
-        return "1. Snow activities  2. Solang Valley";
+        return "1. Venna Lake  2. Mapro Garden";
     }
 }
 
